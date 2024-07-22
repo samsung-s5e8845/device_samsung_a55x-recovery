@@ -1,0 +1,3 @@
+# USB Config
+vendor.usb.use_ffs_mtp=1
+persist.sys.usb.config=mtp,adb
