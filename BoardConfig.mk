@@ -96,9 +96,6 @@ TARGET_COPY_OUT_VENDOR := vendor
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
-# System as root
-BOARD_BUILD_SYSTEM_ROOT_IMAGE := false
-
 # Resolution
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
