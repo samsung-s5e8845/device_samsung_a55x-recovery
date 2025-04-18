@@ -22,8 +22,9 @@ TARGET_CPU_ABI2 :=
 TARGET_CPU_VARIANT := generic
 TARGET_CPU_VARIANT_RUNTIME := cortex-a76
 
-# APEX
-DEXPREOPT_GENERATE_APEX_IMAGE := true
+# Extra mount point
+BOARD_ROOT_EXTRA_SYMLINKS += /mnt/vendor/efs:/efs
+BOARD_ROOT_EXTRA_SYMLINKS += /mnt/vendor/persist:/persist
 
 # Display
 TARGET_SCREEN_DENSITY := 450
